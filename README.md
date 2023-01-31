@@ -5,11 +5,9 @@
 ### Paper 1: Analyzing Wrap-Up Effects through an Information-Theoretic Lens
 | Topic        |                                                             |
 |--------------|--------------------------------------------------------------------------------------------------------|
-| Question     |  |
-| Question     |  |
+| Question Reserch    |  |
 | Related Work |                             |
 | Solution     |  |
-| Method       |  |
 | Method       |  |
 | Result       |  |
 | Conclusion   |  |
