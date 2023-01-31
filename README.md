@@ -3,6 +3,7 @@
 ## READING PAPER NLP
 
 ### Paper 1: Analyzing Wrap-Up Effects through an Information-Theoretic Lens
+Link paper: https://aclanthology.org/2022.acl-short.3/
 | Topic        |                                                             |
 |--------------|--------------------------------------------------------------------------------------------------------|
 | Question Reserch    |  |
@@ -12,4 +13,3 @@
 | Result       |  |
 | Conclusion   |  |
 | Future Work  |  |
-| Limitation |  |
