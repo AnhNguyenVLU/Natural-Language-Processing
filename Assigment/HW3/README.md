@@ -1,2 +1,2 @@
-# Lab-Phantichdulieu_HocSau-VLU
-Lab-Phân tích dữ liệu và học sâu - VLSET
+# Read https://aclanthology.org/D14-1082.pdf and maybe just write one paragraph summary in your README.md in your github
+
