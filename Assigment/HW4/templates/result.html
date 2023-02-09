@@ -1,16 +1,53 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+</style>
 {% extends "layout.html" %}
 {% block content %}
-    <div class="container">
-    <h1>Skills of CV</h1>
-    </br>
-        {% for skill in skills %}
-            <p>{{skill}}</p>
-        {% endfor %}
-        
-    <h1>Education of CV</h1>
-    </br>
-        {% for education in educations %}
-            <p>{{education}}</p>
-        {% endfor %}
+
+<body>
+    <div class="container" style="display: flex; ">
+        <div style="width: 100%;display: block;">
+            <table style="border:1px solid black; width: 100%;">
+            <thead style="border:1px solid black;">
+                <th>Skills of CV</th>
+            </thead>
+            <body>
+                {% for skill in skills %}
+                <tr style="border:1px solid black;">
+                    <td>
+                        {{skill}}
+                    </td>
+                </tr>
+                {% endfor %}
+            </body>
+        </table>
+        </div>
+
+        <div style="width: 100%;display: block;">
+            <table style="border:1px solid black; width: 100%;">
+                <thead style="border:1px solid black;">
+                    <th>Education of CV</th>
+                </thead>
+                <body>
+                    {% for education in educations %}
+                    <tr style="border:1px solid black;">
+                        <td>
+                            {{education}}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </body>
+            </table>
+        </div>
+       
     </div>
+</body>
 {% endblock %}
+
+</html>
