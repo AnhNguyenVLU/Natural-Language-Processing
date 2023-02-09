@@ -1,7 +1,7 @@
 # Resume Parser
 
 For this assgiment, I will install libraries like: Flask, virtualenv, Spicy,......\
-The data I referenced from Tonson\
+The data I consulted from my classmates NLP\
 This web allows users to submit their CV and it will output skills and Education
 ## Demo Web
 #### Uploading Resume
