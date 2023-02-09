@@ -17,9 +17,6 @@ def remove_temp_files():
 def index():
     return render_template("admin.html")
 
-@app.route('/about')
-def about():
-    return render_template("about.html")
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
@@ -38,20 +35,6 @@ def display_result():
     
     skills, educations = readPDF('./static/temp_files/' + uploadedFile[0])
     return render_template('result.html', skills=skills, educations=educations)
-
-
-    path = os.path.join(
-        os.path.join(
-            os.path.abspath(
-                os.path.dirname(__file__)), app.config['UPLOAD_FOLDER'], name))
-    print(path)
-    skills,educations = readPDF(path)
-    os.remove(path)
-    return render_template("result.html",skills=skills,educations=educations)
-
-@app.route('/lab05')
-def classification():
-    return render_template("lab05.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
