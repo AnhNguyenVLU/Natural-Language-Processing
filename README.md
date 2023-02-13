@@ -19,7 +19,7 @@ Date: 13/02/2023
 | Topic        |                 On the probability–quality paradox in language generation                                            |
 |--------------|--------------------------------------------------------------------------------------------------------|
 | Question Reserch    | |
-| Related Work |  |
-| Solution     | - The author offer an explanation by analyzing language generation through an information-theoretic lens. <br /> - Provide preliminary empirical evidence in favor of this hypothesis. <br /> - Quality ratings of both human and machine-generated text—covering multiple tasks and common decoding strategies  |
+| Related Work |  In the domain of machine translation, the most probable string under the model is often the empty string. <br /> - In the domain of openended generation, mode-seeking methods produce dull and generic text. <br /> - The set of stringshas an intuitive relationship to the typical set, an information theoretic concept defined for stationary ergodic stochastic processes. |
+| Solution     | - The author offer an explanation by analyzing language generation through an information-theoretic lens. <br /> - Provide preliminary empirical evidence in favor of this hypothesis. <br /> - Quality ratings of both human and machine-generated text-covering multiple tasks and common decoding strategies  |
 | Method       | |
-| Result       | Quality text has an information content significantly closer to the entropy than expect by chance. |
+| Result       | - Quality text has an information content significantly closer to the entropy than expect by chance. <br /> - The author provide empirical evidence in support of our hypothesis in an analysis of both human and machine-generated text, demonstrating that, overwhelmingly, high-quality text indeed has information content in the proposed region. |
