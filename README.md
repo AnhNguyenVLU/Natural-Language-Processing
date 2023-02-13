@@ -20,6 +20,6 @@ Date: 13/02/2023
 |--------------|--------------------------------------------------------------------------------------------------------|
 | Question Reserch    | |
 | Related Work |  |
-| Solution     | - The author offer an explanation by analyzing language generation through an information-theoretic lens. <br /> - Provide preliminary empirical evidence in favor of this hypothesis. <br /> - Quality ratings of both human and machine-generated text—covering multiple tasks and common decoding strategies—suggest high  |
+| Solution     | - The author offer an explanation by analyzing language generation through an information-theoretic lens. <br /> - Provide preliminary empirical evidence in favor of this hypothesis. <br /> - Quality ratings of both human and machine-generated text—covering multiple tasks and common decoding strategies  |
 | Method       | |
 | Result       | |
