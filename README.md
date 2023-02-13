@@ -22,4 +22,4 @@ Date: 13/02/2023
 | Related Work |  |
 | Solution     | - The author offer an explanation by analyzing language generation through an information-theoretic lens. <br /> - Provide preliminary empirical evidence in favor of this hypothesis. <br /> - Quality ratings of both human and machine-generated text—covering multiple tasks and common decoding strategies  |
 | Method       | |
-| Result       | |
+| Result       | Quality text has an information content significantly closer to the entropy than expect by chance. |
