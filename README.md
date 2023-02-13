@@ -13,3 +13,13 @@ Date: 31/01/2023
 | Method       | - Exploring the relationship between clause-final RTs and information-theoretic attributes of text.<br /> - Use surprise estimates from modern language models to look for associations between ending effects and informational content in a sentence.<br /> - Wrap-up effects.<br /> - Information-theoretic|
 | Result       | - The author find that operationalizations of the information contained in preceding context lead to better predictions of these RTs, while not adding significant predictive power for sentence-medial RTs.<br /> - Provide evidence (either in support or against) about several theories of the nature of wrap-up processes. |
 
+### Paper 2: On the probability–quality paradox in language generation
+Link paper: https://aclanthology.org/2022.acl-short.5 \
+Date: 08/02/2023
+| Topic        |                 On the probability–quality paradox in language generation                                            |
+|--------------|--------------------------------------------------------------------------------------------------------|
+| Question Reserch    | |
+| Related Work |  |
+| Solution     |  |
+| Method       | |
+| Result       | |
