@@ -14,9 +14,6 @@ app.config['UPLOAD_FOLDER'] = 'static/files'
 @app.route('/')
 def index():
     return render_template("index.html")
-@app.route('/about')
-def about():
-    return render_template("about.html")
 ####Reddit API Part
 # reddit crawler
 import pandas as pd
