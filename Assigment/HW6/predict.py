@@ -57,4 +57,4 @@ dropout_rate = 0.65
 lr = 1e-3                     
 model = LSTM(vocab_size, emb_dim, hid_dim, num_layers, dropout_rate).to(device)
 save_path = f'models/model.pt'
-model.load_state_dict(torch.load(save_path , map_location=torch.device('cpu')))
+model.load_state_dict(torch.load(save_path))

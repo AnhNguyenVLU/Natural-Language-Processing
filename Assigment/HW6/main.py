@@ -3,7 +3,7 @@ from flask_wtf import FlaskForm
 from wtforms import SubmitField, StringField
 from wtforms.validators import DataRequired
 import pandas as pd
-from predict_auto import predict
+from predict import predict
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mykey'
 app.config['UPLOAD_FOLDER'] = 'static/files' 
