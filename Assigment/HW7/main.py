@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from wtforms.validators import DataRequired
-from TestingNMT import *
+from Testing import *
 # import TestingNMT
 import torch
 
