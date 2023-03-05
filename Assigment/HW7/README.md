@@ -1,4 +1,4 @@
-# Assigment 07 - 23 Feb - 
+# Assigment 07 - 23 Feb - Translate your own language
 
 
 
