@@ -36,7 +36,7 @@ Date: 25/02/2023
 | Result       | A TypeDriven Multi-Turn Corrections approach for GEC show that result improving the accuracy of GEC, particularly on sentences with multiple errors. |
 
 ### Paper 4: AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts
-Link paper: https://aclanthology.org/2020.emnlp-main.346.pdf /
+Link paper: https://aclanthology.org/2020.emnlp-main.346.pdf \
 Date: 06/03/2023
 | Topic        |                 AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts                                           |
 |--------------|--------------------------------------------------------------------------------------------------------|
