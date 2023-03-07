@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import torch
 import pickle
-from NMTAttention_model import *
+from model import *
 from attacut import tokenize, Tokenizer
 from torchtext.data.utils import get_tokenizer
 
