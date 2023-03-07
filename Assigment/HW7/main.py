@@ -52,7 +52,7 @@ for ln in [SRC_LANGUAGE, TRG_LANGUAGE]:
 def index():
     return render_template("index.html")
 
-@app.route('/lab07', methods=['GET', 'POST'])
+@app.route('/mt', methods=['GET', 'POST'])
 def machine_translation():
     if request.method == 'POST':
         source = request.form.get('source')
