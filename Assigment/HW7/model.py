@@ -149,7 +149,7 @@ class Decoder(nn.Module):
         
         return prediction, hidden.squeeze(0), a.squeeze(1)
     
-class Seq2SeqPackedAttention(nn.Module):
+class Seq2SeqAttention(nn.Module):
     def __init__(self, encoder, decoder, src_pad_idx, device):
         super().__init__()
         

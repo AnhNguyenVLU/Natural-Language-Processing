@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import torch
 import pickle
-from NMTAttention_model import *
+from model import *
 from attacut import tokenize, Tokenizer
 from torchtext.data.utils import get_tokenizer
 
@@ -113,8 +113,12 @@ def translation(source, variants, save_path, device):
 @app.route('/')
 def index():
     return render_template("index.html")
+<<<<<<< HEAD
 variants = 'additive'
 save_path = './models/Seq2SeqAttention_additive.pt'
+=======
+
+>>>>>>> df73a20f80ba410bb51f2249c4042b910da551cb
 @app.route('/mt', methods=['GET', 'POST'])
 def machine_translation():
     if request.method == 'POST':
